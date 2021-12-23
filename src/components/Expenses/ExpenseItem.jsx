@@ -12,6 +12,6 @@ const ExpenseItem = ({ date, title, amount }) => {
       </div>
     </Card>
   );
-}
+};
 
 export default ExpenseItem;
