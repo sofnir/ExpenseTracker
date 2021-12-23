@@ -5,8 +5,9 @@ import './Expenses.css';
 const Expenses = ({ expenses }) => {
   return (
     <Card className='expenses'>
-      {expenses.map(expense => {
+      {expenses.map((expense, index) => {
         return <ExpenseItem
+          key={index}
           title={expense.title}
           amount={expense.amount}
           date={expense.date} />
