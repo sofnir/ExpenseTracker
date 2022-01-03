@@ -26,7 +26,7 @@ const ExpenseForm = ({
 
     const formData = {
       title: title,
-      amount: amount,
+      amount: +amount,
       date: date
     };
 
